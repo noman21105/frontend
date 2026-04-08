@@ -13,8 +13,8 @@
 // ============================================================================
 
 // === App State ===
-const API_BASE = "http://localhost:8000";
-const WS_BASE = "ws://localhost:8000/ws";
+const API_BASE = "https://backend-production-0c12.up.railway.app/";
+const WS_BASE = "wss://backend-production-0c12.up.railway.app/ws";
 
 let authToken = localStorage.getItem('auth_token') || null;
 let currentUser = null;
